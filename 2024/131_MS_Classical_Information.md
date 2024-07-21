@@ -5,7 +5,7 @@ As in a classical single system(also we can think of them as a simple system), I
 
 ### What does the multiple systems mean?
 
-As we have discussed in the classical system blog the concept of a single or multiple systems can be defined as per our needs. Commonly we consider a simple system like a bit or a qbit as a single system and use the combination these to create a more complex system. We will use the ideas from this blog to combine multiple single systems together to create more a complex system(or equivalently called multiple systems).
+As we have discussed in the classical system blog the concept of a single or multiple systems can be defined as per our needs. Commonly we consider a simple system like a bit or a qubit as a single system and use the combination these to create a more complex system. We will use the ideas from this blog to combine multiple single systems together to create more a complex system(or equivalently called multiple systems).
 
 ### Why do we need a multiple systems?
 
@@ -318,9 +318,12 @@ This equation tells us that the probablity of having $X_1 = a $ will be equal to
 
 ### Why do we say that the measurement of one system doesn't affect the outcome of the another system?
 
-Because if the state of the $X_1$ changes based on whether or not we measure the $X_2$, then it will allow us faster than light communication. For example lets assume that we are measuring the $X_1$ in the Earth and some other person is measuring the $X_2$ from the planet which is 100 light years away from earth which is called E_100.
+Firstly if the state of the $X_1$ changes based on whether or not we measure(or for that matter whether or not we apply any operation to the system $X_2$) the $X_2$, then it will allow us faster than light communication. For example lets assume that we are measuring the $X_1$ in the Earth and some other person is measuring the $X_2$ from the planet which is 100 light years away from earth which is called E_100.
 
 If someone from planet E_100 want to send information to Earth it will take at least 100 light years in the normal settings. But if the state of the $X_1$ depends on the measurement of the state of the $X_2$, then some one from the Earth can continuously measure the $X_1$. If the person from the Planet E_100 measures the $X_2$, then at that moment the person in the earth will measure different value for $X_1$. This will allow us to send a signal to the earth faster than light. As of now it is not possible based on our understanding about the physics. In this case the above equation describes the probability outcome of the first system by distributing that value to all the possible outcomes of the second system. 
+
+>***Note:*** Here we have discussed about measuring the same bit continuously. The repetitive measurements itself won't be possible for the quantum systems. Remember that as soon as we measure the quantum system the entangled state(or any individual state) will collapse into that measured outcome.
+>The property of changing probabilities in one part of an entangled(or correlated) system affecting another part due to quantum entanglement is unique to quantum mechanics and does not have a direct analog in classical, non-quantum correlated systems. So if there are two classical bits that are correlated and we apply some operation on the first classical bit, then that doesn't change the probability outcome of the other classical bit. But in case of quantum bit(qubit) applying some operation on the first qubit will change the probability outcome of the second qubit. We will discuss further about quantum entanglement in upcoming blogs.
 
 
 ### If two systems are correlated, does that mean measurement of one system depends on the other system?
@@ -329,7 +332,7 @@ The answer is no. But rather it means that if the systems $X_1$ and $X_2$ are co
 
 Let assume that two joint systems $(X_1,X_2)$ is in a particular probabilistic state $\phi_1$. The correlation between these two systems just tells us that, if you keep the joint systems in the current state and measure the state of the $X_1$, then we will know some information about the system $X_2$. 
 
-But if you apply some operation on the system $X_1$ individually(In next section we will see that applying operations on individual system of the multiple systems is possible), that won't affect the state of the system $X_2$. The state of the $X_2$ will only change if we apply some operation on that system also. Also after you apply some operation on the system $X_1$, the whole system will change into some new probabilistic state $\phi_2$. This new state $\phi_2$ may or may not be correlated. 
+If you apply some operation on the system $X_1$ individually(In next section we will see that applying operations on individual system of the multiple systems is possible), that won't affect the state of the system $X_2$. The state of the $X_2$ will only change if we apply some operation on that system also. Also after you apply some operation on the system $X_1$ alone, the whole system will change into some new probabilistic state $\phi_2$. This new state $\phi_2$ may or may not be correlated. 
 
 
 ### After measuring the system $X_1$, we might know some information about the $X_2$. How to represent it mathematically?
